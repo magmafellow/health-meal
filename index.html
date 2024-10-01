@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -65,10 +71,94 @@
       </div>
       <div class="youknow">
         <div class="youknow__left">
-          
+          <div class="youknow__imgbox">
+            <img src="./img/stack_of_veg.png" alt="stack of vegetables" />
+          </div>
         </div>
-        <div class="youknow__right"></div>
+        <div class="youknow__right">
+          <h3 class="youknow__title">Вы узнаете</h3>
+          <ul class="youknow__list">
+            <li class="youknow__item">
+              Что нужно есть, чтобы хорошо себя чувствовать
+            </li>
+            <li class="youknow__item">
+              Какие продукты противопоказаны лично вам или вашему ребенку
+            </li>
+            <li class="youknow__item">
+              Есть ли склонность к набору лишнего веса
+            </li>
+            <li class="youknow__item">
+              Риск развития метаболических заболеваний
+            </li>
+          </ul>
+        </div>
       </div>
+      <div class="howork">
+        <div class="howork__left">
+          <h3 class="howork__title">Как это работает?</h3>
+          <ul class="howork__list">
+            <li class="howork__item">
+              <img src="./img/icon1.png" alt="icon one" />
+              <p>Вы сдаете генетический тест</p>
+            </li>
+            <li class="howork__item">
+              <img src="./img/icon2.png" alt="icon two" />
+              <p>Мы интерпретируем результаты теста</p>
+            </li>
+            <li class="howork__item">
+              <img src="./img/icon3.png" alt="icon three" />
+              <p>
+                Вы получаете результаты исследования и рекомендации диетолога в
+                личном кабинете
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="howork__right">
+          <div class="howork__imgbox">
+            <img src="./img/points.png" alt="points" />
+          </div>
+        </div>
+      </div>
+      <form class="form" action="#">
+        <h2 class="form__title">Купить программу</h2>
+        <div class="form__box">
+          <label class="label" for="name">Имя:</label>
+          <input class="input" name="name" id="name" placeholder="Введите свое имя" type="text">
+        </div>
+        <div class="form__box">
+          <label class="label" for="surname">Фамилия:</label>
+          <input class="input" name="surname" id="surname" placeholder="Введите свою фамилию" type="text">
+        </div>
+        <div class="form__box">
+          <label class="label" for="surname">Дата рождения:</label>
+          <input class="input" name="surname" id="surname" placeholder="__ . __ . ____ г." type="text">
+        </div>
+        <div class="form__box">
+          <label class="label" for="surname">Телефон:</label>
+          <input class="input" name="surname" id="surname" placeholder="+7 ( ___ ) - ___ - __ - __" type="text">
+        </div>
+        <div class="form__box">
+          <label class="label" for="surname">Стоимость:</label>
+          <div class="form__price">4 999 рублей</div>
+        </div>
+        <div class="form__box form__box_green">
+          <label class="label" for="surname"></label>
+          <input class="checkbox" type="checkbox">
+          <span class="privacy-check">С условиями оферты ознакомлен</span>
+        </div>
+        <div class="form__box form__box_green">
+          <label class="label" for="surname"></label>
+          <input class="checkbox" type="checkbox">
+          <span class="privacy-check">Согласен на обработку персональных данных</span>
+        </div>
+        <div class="form__box">
+          <label class="label" for="__blank"></label>
+          <div>
+            <button class="heart-box-btn">Купить программу</button>
+          </div>
+        </div>
+      </form>
     </div>
   </body>
 </html>
