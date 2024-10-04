@@ -168,12 +168,12 @@
         </div>
         <div class="form__box form__box_green">
           <label class="label" for="surname"></label>
-          <input class="checkbox" type="checkbox" />
+          <input required id="checkbox-1" class="checkbox" type="checkbox" />
           <span class="privacy-check">С условиями оферты ознакомлен</span>
         </div>
         <div class="form__box form__box_green">
           <label class="label" for="surname"></label>
-          <input class="checkbox" type="checkbox" />
+          <input required id="checkbox-2" class="checkbox" type="checkbox" />
           <span class="privacy-check"
             >Согласен на обработку персональных данных</span
           >
@@ -181,10 +181,18 @@
         <div class="form__box">
           <label class="label" for="__blank"></label>
           <div>
-            <button class="heart-box-btn">Купить программу</button>
+            <button type="submit" class="heart-box-btn form-buy-btn">
+              Купить программу
+            </button>
           </div>
         </div>
       </form>
+      <div class="message hidden">
+        <p class="message__content">Благодарим Вас за проявленный интерес!</p>
+        <p class="message__content">Мы скоро свяжемся с вами</p>
+      </div>
     </div>
+
+    <script src="./main.js"></script>
   </body>
 </html>
